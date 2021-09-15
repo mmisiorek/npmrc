@@ -17,7 +17,7 @@ runs:
   using: "composite"
   steps:
     - uses: actions/checkout@v2
-    - run: ${{ github.action_path }}/script.sh
+    - run: "cd ${{ github.action_path }} && bash script.sh"
       shell: bash
       env:
         GITHUB_PERSONAL_TOKEN: ${{ inputs.github_personal_token }}
