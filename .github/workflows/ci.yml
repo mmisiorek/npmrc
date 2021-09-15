@@ -4,8 +4,7 @@ on: [push]
 
 jobs:
   ci:
-    runs-on: ubuntu-latest
-    container: node:12.18-buster
+    runs-on: ubuntu-latest	
 
     steps:
       - name: Whatever
