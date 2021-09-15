@@ -16,8 +16,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: ls ${{ github.action_path }}
-      shell: bash
+    - uses: actions/checkout@v2
     - run: ${{ github.action_path }}/script.sh
       shell: bash
       env:
