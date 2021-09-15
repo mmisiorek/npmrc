@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ "$PACKAGE" == "" ]]; then
-  NPMRC_PATH="~/.npmrc"
+  NPMRC_PATH="$HOME/.npmrc"
 else
   NPMRC_PATH="packages/$PACKAGE/.npmrc"
 fi
