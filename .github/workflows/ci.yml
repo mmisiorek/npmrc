@@ -10,7 +10,7 @@ jobs:
       - name: Whatever
         uses: mmisiorek/npmrc@master
         with:
-	  github_personal_token: reijiowejreiojwrew
+          github_personal_token: reijiowejreiojwrew
           organization_name: mmisiorek
 
       - name: x
