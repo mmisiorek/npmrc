@@ -10,6 +10,7 @@ fi
 #  rm "$NPMRC_PATH"
 #fi
 
+echo "$NPMRC_PATH"
 touch "$NPMRC_PATH"
 
 if [[ -n "$ORGANIZATION_NAME" ]]; then
