@@ -10,6 +10,8 @@ if [[ -f "$NPMRC_PATH" ]]; then
   rm "$NPMRC_PATH"
 fi
 
+touch "$NPMRC_PATH"
+
 if [[ -n "$ORGANIZATION_NAME" ]]; then
   echo "registry = https://npm.pkg.github.com/$ORGANIZATION_NAME" >> "$NPMRC_PATH"
 fi
