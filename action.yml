@@ -18,5 +18,7 @@ runs:
   steps:
     - run: ${{ github.action_path }}/script.sh
       shell: bash
-      
-      
+      env:
+        GITHUB_PERSONAL_TOKEN: ${{ inputs.github_personal_token }}
+        ORGANIZATION_NAME: ${{ inputs.organization_name }}
+        PACKAGE: ${{ inputs.package }}
