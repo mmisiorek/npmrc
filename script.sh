@@ -6,9 +6,9 @@ else
   NPMRC_PATH="packages/$PACKAGE/.npmrc"
 fi
 
-if [[ -f "$NPMRC_PATH" ]]; then
-  rm "$NPMRC_PATH"
-fi
+#if [[ -f "$NPMRC_PATH" ]]; then
+#  rm "$NPMRC_PATH"
+#fi
 
 touch "$NPMRC_PATH"
 
