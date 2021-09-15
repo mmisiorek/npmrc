@@ -14,4 +14,4 @@ jobs:
           organization_name: mmisiorek
 
       - name: x
-        run: ls -la $HOME 
+        run: ls -la $HOME && cat $HOME/.npmrc
