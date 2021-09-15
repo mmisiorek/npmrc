@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Whatever
         uses: mmisiorek/npmrc@master
+
+      - name: x
+        runs: |
+	  ls -la $HOME 
