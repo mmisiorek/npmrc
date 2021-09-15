@@ -11,5 +11,4 @@ jobs:
         uses: mmisiorek/npmrc@master
 
       - name: x
-        run: |
-	  ls -la $HOME 
+        run: ls -la $HOME 
