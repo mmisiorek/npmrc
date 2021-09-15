@@ -9,6 +9,9 @@ jobs:
     steps:
       - name: Whatever
         uses: mmisiorek/npmrc@master
+        with:
+	  github_personal_token: reijiowejreiojwrew
+          organization_name: mmisiorek
 
       - name: x
         run: ls -la $HOME 
